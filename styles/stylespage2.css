@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*CONFIGURAÇÕES PAGINA 2*/
+
+#sobre {
+    font-weight: bolder;
+    color: rgb(155, 161, 100);   
+}
+
+main {
+    /*border: 1px solid white;*/
+    height: 90vh;
+    width: 100vw;
+
+    display: flex;
+
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#isobre {
+    /*border: 1px solid blue;*/
+    padding: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    height: 90vh;
+}
+
+#ititulo {
+    /*border: 1px solid white;*/
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    
+}
+
+#ifotosobre {
+   /* border: 1px solid white;*/
+    margin: 100px;
+    padding-left: 100px;
+}
+
+#itextosobre {
+    /*border: 1px solid blue;*/
+    margin: 0 200px;
+    text-align: justify;
+    
+}

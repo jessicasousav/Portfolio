@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#projetos {
+    font-weight: bolder;
+    color: rgb(155, 161, 100);
+}
+
+main {
+    /*border: 1px solid white;*/
+    height: 90vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section#iprojetos {
+    /*border: 1px solid blue;*/
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.imagem {
+    padding: 100px;
+}
+
+.tituloproj {
+    padding: 10px;
+}
+
+.textoproj {
+    padding: 15px;
+}
+
+section div {
+    border: 1px solid rgb(108, 120, 150);
+    border-radius: 0px;
+    margin: 10px 20px;
+    padding: 15px;
+    max-height: 290px;
+    max-width: 600px;
+    text-align: justify;
+    align-content: center;
+    justify-items: center;
+    flex-flow: row wrap;
+    overflow: hidden;
+    transition: .5s;
+}
+
+
+section div:hover {
+    max-height: 480px;
+    border: 1px solid rgb(188, 191, 199);
+    background-color: rgba(23, 25, 31, 0.432);   
+
+}
+
