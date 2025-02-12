@@ -2,9 +2,13 @@
 
 /*CONFIGURAÇÕES INDEX*/
 
+body, html {
+    background-image:radial-gradient(closest-side, #141a29, #0a0b0f);
+}
+
 #inicio {
-    font-weight: bolder;
-    color: rgb(155, 161, 100);
+    font-weight: 700;
+    color: #d49751;
 }
 
 main {
@@ -21,17 +25,98 @@ main {
 
 #ifoto {
     /*border: 1px solid white;*/
-    margin: 150px;
+    box-shadow: black;
+    height: 70vh;
+    animation: showphoto 3s infinite;
+    animation: grow 2s;
 }
 
-/*
-#iinfo {
-    border: 1px solid wheat;
-}*/
 
-#iinfo p {
-    /*border: 1px solid white;*/
-    padding: 10px;
+
+#iinfo h1{
+    position: absolute;
+    top: 75vh;
+    left: 40%;
+    color: #d49751;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    border-right: 1px solid rgb(108, 120, 150);
+    border-width: 1.5px;
+    width: 13ch;
+    white-space: nowrap; /*para não quebrar a linha*/
+    overflow: hidden;
+    animation: typing 2s steps(14), blinking 0.7s infinite step-end;
+
+}
+
+#iinfo h2 {
+    display: flex;
+    /*border: 1px solid blue;*/
+    margin-bottom: 9px;
+    justify-content: center;
+    /*border-right: 1px solid rgb(108, 120, 150);*/
+    width: 17ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(17), blinking 0.7s infinite;
+
+}
+
+#iinfo a {
+    border: 1px solid #141a29;
+    border-radius: 1px;
+    padding: 5px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    animation: pulse 3s infinite;
+}
+
+#iinfo a:hover {
+    background-color: #141a29;
+    border: 1px solid rgb(108, 120, 150);
+    color: #d49751;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(1.2);
+    }
+    
+    50% {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }

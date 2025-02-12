@@ -1,8 +1,8 @@
 @charset "UTF-7";
 
 #contato {
-    font-weight: bolder;
-    color: rgb(155, 161, 100);
+    font-weight: 700;
+    color: #d49751;
 }
 
 main {
@@ -19,7 +19,7 @@ main div {
 }
 
 main div:hover {
-    color: rgb(155, 161, 100);
+    color: #d49751;
 }
 
 p {
@@ -31,7 +31,7 @@ a {
 }
 
 .material-symbols-outlined {
-    color: rgb(155, 161, 100);
+    color: #d49751;
     /*border: 1px solid;*/
     position: absolute;
     right: 58.5%;

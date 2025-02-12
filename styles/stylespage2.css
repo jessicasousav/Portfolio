@@ -4,7 +4,7 @@
 
 #sobre {
     font-weight: bolder;
-    color: rgb(155, 161, 100);   
+    color: #d49751;   
 }
 
 main {
@@ -31,23 +31,16 @@ main {
     height: 90vh;
 }
 
-#ititulo {
-    /*border: 1px solid white;*/
-    position: absolute;
-    top: 90px;
-    left: 50px;
-    
-}
-
 #ifotosobre {
-   /* border: 1px solid white;*/
-    margin: 100px;
-    padding-left: 100px;
+    /*border: 1px solid white;*/
+    height: 70vh;
+    margin: 15px 30px 30px 30px;
+    padding-left: 30px;
 }
 
 #itextosobre {
     /*border: 1px solid blue;*/
-    margin: 0 200px;
+    margin: 0 150px;
     text-align: justify;
     
 }
