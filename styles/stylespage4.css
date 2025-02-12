@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+#habilidades {
+    font-weight: bolder;
+    color: rgb(155, 161, 100);
+}
+
+section {
+    /*border: 1px solid white;*/
+    display: flex;
+    flex-flow: column;
+    height: 90vh;
+    width: 100vw;
+    opacity: 65%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    /*position: absolute;*/
+    height: 40px;
+    margin: 45px 10px 45px 0px;
+    animation: pulse 4s infinite;
+}
+
+.logosProg {
+    /*border: 1px solid white;*/
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.logosDiver{
+    /*border: 1px solid yellow;*/
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+}
+
+#css {
+    animation-delay: 1s;
+}
+
+#html {
+    animation-delay: 1.5s;
+}
+
+#javascript {
+    animation-delay: 2s;
+}
+
+#mysql {
+    animation-delay: 2.5s;
+}
+
+#python {
+    animation-delay: 3s;
+}
+
+#photoshop {
+    animation-delay: 3.5s;
+}
+
+#illustrator {
+    animation-delay: 4s;
+}
+
+#cad {
+    animation-delay: 4.5s;
+}
+
+#office {
+    animation-delay: 5s;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    70% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+h1 {
+    max-width: 500px;
+    padding: 20px;
+    margin: 50px auto;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1;
+    /*border: 1px solid white;*/
+    position: absolute;
+    top: 70%;
+
+}
+
+.texts {
+    height: 1em;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+}
+
+.texts span {
+    animation: autoscroll 8s infinite;
+    color: rgba(155, 161, 100, 0.281);;
+}
+
+
+@keyframes autoscroll {
+    0% {
+        transform: translateY(0);
+
+    }
+    10% {
+        transform: translateY(-1em);
+    }
+    20% {
+        transform: translateY(-2em);
+    }
+
+    30% {
+        transform: translateY(-3em);
+    }
+    40% {
+        transform: translateY(-4em);
+    }
+    50% {
+        transform: translateY(-5em);
+    }
+
+    60% {
+        transform: translateY(-6em);
+    }
+
+    70% {
+        transform: translateY(-7em);
+    }
+    80% {
+        transform: translateY(-8em);
+    }
+
+    90% {
+        transform: translateY(-9em);
+    }
+
+    100% {
+        transform: translateY(-10em);
+
+    }
+}

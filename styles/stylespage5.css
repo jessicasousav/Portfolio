@@ -1,0 +1,38 @@
+@charset "UTF-7";
+
+#contato {
+    font-weight: bolder;
+    color: rgb(155, 161, 100);
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 42%;
+}
+
+main div {
+    transition: 1s;
+}
+
+main div:hover {
+    color: rgb(155, 161, 100);
+}
+
+p {
+    margin-top: 3.5px;
+}
+
+a {
+    color: inherit;
+}
+
+.material-symbols-outlined {
+    color: rgb(155, 161, 100);
+    /*border: 1px solid;*/
+    position: absolute;
+    right: 58.5%;
+}
