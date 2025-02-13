@@ -14,6 +14,7 @@
 
     body{
         height: 100vh;
+        overflow: hidden;
     }
 
     header nav {
@@ -61,12 +62,12 @@
     }
 
     #iinfo h2 {
-        margin-bottom: 3px;
+        margin-bottom: 6px;
         padding: 10px;   
     }
 
     #iinfo a {
-        margin-bottom: 50px;
+        margin-bottom: 120px;
     }
 
     section {  

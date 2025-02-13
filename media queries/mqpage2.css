@@ -1,5 +1,10 @@
 @media screen and (max-width: 767px) {
 
+    body{
+        height: 100vh;
+        overflow: hidden;
+    }
+
     header nav {
         height: 30vh;
         width: 33vw;
@@ -14,9 +19,9 @@
         padding: 10px 5px;
     }
 
-    header nav p {
+    header nav a {
         margin: 0px;
-        width: inherit;
+        width: 33vw;
         display: flex;
         justify-content: space-between;
         border-bottom: 1px solid rgba(108, 120, 150, 0.151);

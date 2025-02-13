@@ -10,7 +10,7 @@
 }
 
 body, html {
-    background-color: #0f1116;
+    background-image:radial-gradient(closest-side, #141a29, #0a0b0f);
     color: rgb(108, 120, 150);
     font-family: "Unna", serif;
 }
