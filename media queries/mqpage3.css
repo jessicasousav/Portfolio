@@ -31,38 +31,35 @@
     }
 
     main {
-
-        height: 59vh;
+        height: 60vh;
     }
 
 
     section#iprojetos {
-        max-height: 50vh;
+        max-height: 60vh;
         padding: 5px;
         flex-flow: column wrap;
-        height: 59vh;
         overflow-y: hidden; 
         overflow-x: scroll;    
-
+        
     }
 
     section div {
-        max-height: 400px;
-        max-width: 600px; 
-        
-
+        min-height: 330px;
     }
 
     .imagem {
         padding: 50px;
     }
 
-
-
     .textoproj {
-        max-height: 5.9em;
+        max-height: 8.2em;
         overflow: hidden;
         padding: 3px;
+    }
+
+    section div:hover {
+        display: none;
     }
    
 }
