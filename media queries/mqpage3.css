@@ -31,20 +31,43 @@
     }
 
     main {
-        height: 72vh;
+
+        height: 59vh;
     }
 
+
     section#iprojetos {
-        padding-top: 5px;
+  
+        padding: 0px;
         flex-flow: column wrap;
-        height: 72vh;
+        height: 59vh;
         overflow-y: hidden; 
         overflow-x: scroll;    
+
     }
+    
+    /*
+section div {
+    border: 1px solid rgb(108, 120, 150);
+    border-radius: 0px;
+    margin: 10px 20px;
+    padding: 15px;
+    max-height: 290px;
+    max-width: 600px;
+    text-align: justify;
+    align-content: center;
+    justify-items: center;
+    flex-flow: row wrap;
+    overflow: hidden;
+    transition: .5s;
+}
+    */
 
     section div {
         max-height: 400px;
         max-width: 600px; 
+        
+
     }
 
     .imagem {
