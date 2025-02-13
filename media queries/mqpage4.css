@@ -1,0 +1,38 @@
+@media screen and (max-width: 767px) {
+
+    header nav {
+        height: 25vh;
+        width: 20vw;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content:space-between;
+        margin-left: 260px;
+        border-left: 1px solid rgb(108, 120, 150);
+        border-bottom: none;
+    }
+
+    main {
+        height: 72vh;
+    }
+
+    section {
+        height: 72vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logosProg {
+        width: 90vw;
+    }
+    
+    .logosDiver{
+        width: 90vw;
+    }
+
+    h1 {
+        top: 15px;
+        right: 115px;
+    
+    }
+}

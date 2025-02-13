@@ -1,0 +1,67 @@
+@media screen and (max-width: 767px) {
+
+    header nav {
+        height: 25vh;
+        width: 20vw;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content:space-between;
+        margin-left: 260px;
+        border-left: 1px solid rgb(108, 120, 150);
+        border-bottom: none;
+    }
+
+    main {
+        height: 72vh;
+    }
+
+    #isobre {
+        height: 72vh;
+        width: 100%;
+        flex-flow: column nowrap;
+    }
+
+    #ifotosobre {
+        height: 70vh;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        opacity: 20%;
+    }
+    
+    #itextosobre {
+        height: 60vh;
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+
+    #isobre {
+        width: 100%;
+    }
+
+    #ifotosobre {
+        position: absolute;
+        top: 130px;
+        opacity: 20%;
+    }
+    
+    #itextosobre {
+        font-size: 1.5em;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 400px 0px 0px 0px;
+        padding: 50px;
+        
+    }
+}
+

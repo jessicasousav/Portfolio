@@ -1,0 +1,35 @@
+@media screen and (max-width: 767px) {
+
+    header nav {
+        height: 25vh;
+        width: 20vw;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content:space-between;
+        margin-left: 260px;
+        border-left: 1px solid rgb(108, 120, 150);
+        border-bottom: none;
+    }
+
+    main {
+        height: 72vh;
+    }
+
+    section#iprojetos {
+        flex-flow: column wrap;
+        height: 72vh;
+        overflow-y: hidden; 
+        overflow-x: scroll;    
+    }
+
+    section div {
+        max-height: 400px;
+        max-width: 600px; 
+    }
+
+    .imagem {
+        padding: 50px;
+    }
+   
+}
