@@ -45,7 +45,7 @@
     }
 
     section div {
-        min-height: 330px;
+        min-height: 340px;
     }
 
     .imagem {
@@ -53,7 +53,7 @@
     }
 
     .textoproj {
-        max-height: 8.2em;
+        max-height: 10em;
         overflow: hidden;
         padding: 3px;
     }
