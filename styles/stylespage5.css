@@ -30,7 +30,7 @@ a {
     color: inherit;
 }
 
-.material-symbols-outlined {
+main .material-symbols-outlined {
     color: #d49751;
     /*border: 1px solid;*/
     position: absolute;

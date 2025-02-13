@@ -12,33 +12,51 @@
 
 @media screen and (max-width: 767px) {
 
+    body{
+        height: 100vh;
+        overflow: hidden;
+    }
+
     header nav {
-        height: 25vh;
-        width: 20vw;
+        height: 30vh;
+        width: 33vw;
         display: flex;
         flex-flow: column wrap;
         align-items: flex-start;
         justify-content:space-between;
-        margin-left: 275px;
-        border-left: 1px solid rgb(108, 120, 150);
+        margin: 30px 240px 0px 240px;
         border-bottom: none;
+        padding: 10px 5px;
     }
 
+    header nav p {
+        margin: 0px;
+        width: inherit;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(108, 120, 150, 0.151);
+        padding: 0px 2px 10px 2px;
+    }
+    #seta {
+        display: flex;
+        font-size: 15px;
+    }
 
     main {
-        height: 72vh;
+        height: 55vh;
+        width: 100%;     
     }
 
-    #ifoto {
+    #ifoto {   
         height: 60vh;
         opacity: 55%;
     }
 
     #iinfo h1{
-        top: 80px;
+        top: 130px;
         left: 5%;
         font-weight: 700;
-        font-size: 2em;
+        font-size: 1.8em;
         width: 14ch;
     
     }
@@ -52,6 +70,9 @@
         margin-bottom: 50px;
     }
 
+    section {  
+        display: none;
+    }
 }
 
 
@@ -61,5 +82,63 @@
         left: 25%;
         width: 14ch;
     }
+
+    section {  
+        width: 90vw;
+        height: 60vh;
+        padding: 10px;
+        font-size: 1.2em;
+        line-height: 1.2;
+        top: 22%;
+    }
+
+    .words1 , .words2{
+        max-width: 110px;
+        height: 1.3em;
+    }
+
+    .words1 {
+        margin-top: 10%;
+        margin-left: 1%;
+        text-align: right;
+    }
+    
+    .words2 {
+        margin-top: -2%;
+        margin-left: 75%;
+        text-align: left;
+    }
+
 }
 
+
+@media screen and (min-width: 993px) and (max-width:1200px) {
+    #iinfo h1 {
+        left: 32%;
+        width: 14ch;
+    }
+
+    section {  
+        height: 80vh;
+        font-size: 1.2em;
+        line-height: 1.2;
+
+    }
+
+    .words1 , .words2{
+        max-width: 110px;
+        height: 1.3em;
+    }
+
+    .words1 {
+        margin-top: 30%;
+        margin-left: 0%;
+
+    }
+    
+    .words2 {
+        margin-top: -3%;
+        margin-left: 80%;
+ 
+    }
+}

@@ -37,3 +37,6 @@ header nav a:hover {
     transition: ease 1s;
 }
 
+#seta {
+    display: none;
+}
