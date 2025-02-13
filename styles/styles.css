@@ -3,9 +3,6 @@
 /*CONFIGURAÇÕES GERAIS*/
 /*#0f1116*/
 
-@media screen and (orientation: landscape) {
-    
-
 * {
     padding: 0px;
     margin: 0px;
@@ -40,4 +37,3 @@ header nav a:hover {
     transition: ease 1s;
 }
 
-}
