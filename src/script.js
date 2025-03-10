@@ -17,7 +17,7 @@ function changeBigmenu(){
 function hideMenu(){
     if(window.innerWidth <= 767){
         itensMenu.style.display = 'none';
-    } else if (window.innerHeight <=767<window.innerWidth){
+    } else if (window.innerHeight <=767 && window.innerHeight < window.innerWidth){
         itensMenu.style.display = 'none';
     }
 }
