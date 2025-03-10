@@ -245,9 +245,13 @@
 }
 
 
-/* MODO RETRATO CELULAR */
+/* MODO PAISAGEM CELULAR */
 
 @media screen and (max-height: 767px) and (orientation: landscape) {
+    html, body {
+        padding: 0px 30px;
+    }
+
     header {
         position: fixed;
     }
