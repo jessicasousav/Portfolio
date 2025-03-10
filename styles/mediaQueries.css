@@ -9,6 +9,8 @@
     Grandes Telas: acima de 1200px
 */
 
+/* CELULARES E TELAS PEQUENAS*/
+
 @media screen and (max-width: 767px) and (orientation: portrait) {
 
     header {
@@ -139,6 +141,8 @@
     }
 }
 
+/* TABLET */
+
 @media screen and (min-width:767px) and (max-width:992px){
 
     header nav {
@@ -196,6 +200,8 @@
 
 }
 
+/* DESKTOP */
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
     header nav {   
@@ -238,7 +244,10 @@
     
 }
 
-@media screen and (orientation: landscape) {
+
+/* MODO RETRATO CELULAR */
+
+@media screen and (max-height: 767px) and (orientation: landscape) {
     header {
         position: fixed;
     }
