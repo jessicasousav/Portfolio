@@ -9,7 +9,7 @@
     Grandes Telas: acima de 1200px
 */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (orientation: portrait) {
 
     header {
         position: fixed;
