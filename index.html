@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/mediaQueries.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/images/favicon-16x16.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous" rel="stylesheet">
+
+    <title>Portfólio</title>
+</head>
+<body onresize="changeBigmenu()">
+
+    <header>
+        <span class="material-symbols-outlined" id="menuIcon" onclick="showMenu()">menu</span>
+
+        <nav id="itensMenu" onmouseup="hideMenu()">
+
+            <ul>
+                <li class="item-menu ativo">
+                    <a href="./index.html" id="inicio">Página Inicial
+                    <span id="seta" class="material-symbols-outlined">chevron_right</span></a>
+                </li>
+                <li class="item-menu">
+                    <a href="#isobre" id="sobre">Sobre mim
+                    <span id="seta" class="material-symbols-outlined">chevron_right</span></a>
+                </li>
+                <li class="item-menu">
+                    <a href="#iprojetos" id="projetos">Projetos
+                    <span id="seta" class="material-symbols-outlined">chevron_right</span></a>
+                </li>
+                <li class="item-menu">
+                    <a href="#iconhecimentos" id="conhecimentos">Conhecimentos
+                    <span id="seta" class="material-symbols-outlined">chevron_right</span></a>
+                </li>
+                <li class="item-menu">
+                    <a href="#icontatos" id="contato">Contato
+                    <span id="seta" class="material-symbols-outlined">chevron_right</span></a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="iinicio">
+            <img src="./src/images/fotosobre.png" alt="Foto" id="ifoto">
+            
+            <div>
+                <div id="iinfo">
+                    <h1>Jéssica Vieira</h1>
+                    <h2>Desenvolvedora Full Stack</h2>
+                    <a href="#isobre">saiba mais</a>
+                </div>
+                <a href="#icontatos" class="btn-page">Contato</a>
+            </div>
+        </section>    
+
+
+        <section id="isobre">
+            <h3>Sobre Mim</h3>
+            <div id="itextosobre">
+                <p>Estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong>, com previsão de formação em 2026. Esta é a minha <strong>segunda graduação</strong>, pois sou formada em Arquitetura e Urbanismo, desde 2020.</p>
+
+                <p>Após a minha primeira graduação, trabalhei na área de arquitetura por aproximadamente 2 anos e, logo após, decidi fazer um <strong>programa de intercâmbio</strong> de trabalho e estudo nos Estados Unidos, onde fiquei de 2022 a 2024 em <strong>Nova Iorque</strong>, o que contribuiu para o aprimoramento do meu nível de <strong>inglês</strong>.</p>
+                    
+                <p>Ao voltar ao Brasil, dei início aos estudos da minha segunda graduação (ADS), no tempo livre complemento meus estudos com cursos livres on-line (<strong>Python, HTML, CSS, Javascript, etc</strong>). No momento <strong>estou desenvolvendo</strong> meu primeiro <strong>projeto pessoal Full Stack (Moovy)</strong>, o qual pretendo lançar nas minhas redes o mais breve possível.</p>
+                    
+                <p>Em conclusão, estou <strong>buscando por uma oportunidade de estágio</strong> para adicionar ao meu aprendizado e entrar no mercado de trabalho, contribuindo com os projetos da empresa no que for necessário para que sejam solucionados da melhor forma possível.</p>
+            </div>
+        </section>     
+
+
+        <section id="iprojetos">       
+            <h3>Projetos</h3>
+
+            <div id="iproj1">
+                <img src="./src/images/Moovy devices.png" alt="Foto" class="imagem" id="iimagem1">
+                <h2 class="tituloproj"><a href="https://jessicasousav.github.io/Moovy/" target="_blank">Moovy</a></h2>
+                <h4>Projeto Pessoal</h4>
+                <p class="textoproj">O Moovy é um projeto pessoal, o qual foi idealizado para fins de registro e classificação de filmes assistidos pelo usuário. O qual poderá dar notas, descrever sua opinião, ver as notas dadas pelo IMDb por meio de uma API integrada ao projeto. Cada usuário poderá se cadastrar no site, com e-mail e senha criptografados pelo sistema e, assim, possuir seus registros pessoais em sua conta. <a href="https://github.com/jessicasousav/Moovy" target="_blank">Acessar no github</a>.</p>
+            </div>
+
+            <div id="iproj2">
+                <img src="./src/images/Spotify devices.png" alt="Foto" class="imagem" id="iimagem2">
+                <h2 class="tituloproj"><a href="https://jessicasousav.github.io/Alura-IMERSAO-FRONT-END-2025/" target="_blank">Clone Spotify</a></h2> 
+                <h4>Projeto Imersão Alura</h4>               
+                <p class="textoproj">Este foi um projeto de imersão Front-end da Alura, o qual ensinou a codificar a página inicial do Spotify com HTML5, CSS3 e Javascript. Ao final da imersão, foi introduzida uma breve explicação sobre o React e como poderia aplicá-lo nesse projeto. <a href="https://github.com/jessicasousav/Alura-IMERSAO-FRONT-END-2025" target="_blank">Acessar no github</a>.</p>
+            </div>
+        </section>
+
+
+        <section id="iconhecimentos">
+            <h3>Conhecimentos</h3>
+
+            <div class="logosProg">
+                <img src="./src/images/CSS menor BP.png" alt="css" id="css" onmouseover="this.src='./src/images/CSS menor COR.png'" onmouseout="this.src='./src/images/CSS menor BP.png'">
+                <img src="./src/images/HTML menor BP.png" alt="HTML" id="html" onmouseover="this.src='./src/images/HTML menor COR.png'" onmouseout="this.src='./src/images/HTML menor BP.png'">
+                <img src="./src/images/JS menor PB.png" alt="Javascript" id="javascript" onmouseover="this.src='./src/images/JS menor cor.jpg'" onmouseout="this.src='./src/images/JS menor PB.png'">
+                <img src="./src/images/MYSQL menor PB.png" alt="MySQL" id="mysql" onmouseover="this.src='./src/images/MYSQL menor COR.png'" onmouseout="this.src='./src/images/MYSQL menor PB.png'">               
+                <img src="./src/images/PYTHON menor PB.png" alt="Python" id="python" onmouseover="this.src='./src/images/PYTHON menor COR.png'" onmouseout="this.src='./src/images/PYTHON menor PB.png'">
+            </div>
+
+            <div class="logosDiver">
+                <img src="./src/images/PS menor BP.png" alt="Photoshop" id="photoshop" onmouseover="this.src='./src/images/PS menor COR.png'" onmouseout="this.src='./src/images/PS menor BP.png'">
+                <img src="./src/images/ILLUSTRATOR menor BP.png" alt="Illustrator" id="illustrator" onmouseover="this.src='./src/images/ILLUSTRATOR menor COR.png'" onmouseout="this.src='./src/images/ILLUSTRATOR menor BP.png'">
+                <img src="./src/images/AUTOCAD menor PB.png" alt="Autocad" id="cad" onmouseover="this.src='./src/images/AUTOCAD menor COR.png'" onmouseout="this.src='./src/images/AUTOCAD menor PB.png'">
+                <img src="./src/images/OFFICE menor PB.png" alt="Office" id="office" onmouseover="this.src='./src/images/OFFICE menor COR.png'" onmouseout="this.src='./src/images/OFFICE menor PB.png'">  
+            </div>
+
+        </section>
+
+
+        <section id="icontatos">
+            <h3>Contato</h3>
+
+            <div id="icontatos-info">
+                <div id="iemail">
+                    <a href="mailto:jessiesousavi@gmail.com" target="_blank">
+                    <p><span class="material-symbols-outlined">mail</span>
+                        jessiesousavi@gmail.com
+                    </p></a>
+                </div>
+                <div id="ilinkedin">
+                    <a href="https://www.linkedin.com/in/jessica-sousa-vieira" target="_blank">
+                    <p><img src="./src/images/linkedin-icon.png" alt="" class="footerIcons">
+                        LinkedIn: jessica-sousa-vieira
+                    </p></a>
+                </div>
+                <div id="igithub">
+                    <a href="https://github.com/jessicasousav" target="_blank">
+                    <p><img src="./src/images/gitgub-icon.png" alt="" class="footerIcons">
+                        GitHub: jessicasousav
+                    </p></a>
+                </div>
+            </div>
+        </section>
+        <div id="voltar">
+            <a href="#iinicio" class="btn-page">Voltar para o início ↑</a>
+        </div>
+    </main>
+
+    <footer>  
+        <section id="ifooter-info">
+            <p>&copy 2025 Moovy. Todos os direitos reservados à 
+                <a href="https://github.com/jessicasousav" target="_blank" id="link-portfolio">Jéssica de Sousa Vieira</a>.
+            </p>
+            <p>As imagens dos filmes contidos neste site foram obtidas em Google.com.</p>
+        </section>
+    </footer>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
