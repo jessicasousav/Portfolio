@@ -4,7 +4,7 @@
 
 # Sobre
 
-- Acesse: #
+- Acesse: https://jessicasousav.github.io/Portfolio/
 
 Neste portfólio, você poderá encontrar as informações sobre a Desenvolvedora Full Stack [Jéssica de Sousa Vieira](https://linkedin.com/in/jessica-sousa-vieira), a qual está em seu 2º semestre da faculdade de ADS.
 
