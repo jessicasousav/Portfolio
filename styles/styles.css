@@ -154,7 +154,7 @@ section {
     border-right: 1px solid var(--cinza);
     border-width: 1.5px;
     white-space: nowrap; /*para não quebrar a linha*/
-    width: 12.8ch;
+    width: 11.5ch;
     overflow: hidden;
     animation: typing 2s steps(14), blinking 0.7s infinite step-end;
 }
