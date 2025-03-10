@@ -270,6 +270,13 @@ section#iprojetos {
     gap: 4em;
 }
 
+#iprojetos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .imagem {
     width: 35vw;
     margin: 15px;
