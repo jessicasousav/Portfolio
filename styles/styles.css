@@ -275,6 +275,7 @@ section#iprojetos {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .5s;
 }
 
 .imagem {
@@ -293,6 +294,7 @@ section#iprojetos {
     color: var(--azul-claro);
     font-family: var(--titulos);
     text-decoration: none;
+    color: red;
 }
 
 
@@ -306,12 +308,6 @@ section#iprojetos {
     text-indent: 1.5em;
     width: 80vw;
     text-align: justify;
-}
-
-#iprojetos div {
-    align-content: center;
-    justify-items: center;
-    transition: .5s;
 }
 
 .textoproj a {
